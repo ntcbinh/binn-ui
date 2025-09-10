@@ -1,0 +1,22 @@
+{
+  "name": "binn-ui",
+  "private": true,
+  "devDependencies": {
+    "changesets": "^1.0.2",
+    "lerna": "^8.0.0",
+    "pnpm": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "bootstrap": "pnpm install",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --stream",
+    "lint": "lerna run lint --stream",
+    "publish:ci": "changeset publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "BinN <ntc.binh96@gmail.com>",
+  "license": "ISC"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@binn-ui/svelte",
+  "version": "0.0.0",
+  "svelte": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "svelte-package",
+    "dev": "echo 'Run Storybook or example app for dev'",
+    "test": "vitest"
+  },
+  "exports": {
+    ".": {
+      "svelte": "./src/index.ts",
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "peerDependencies": {
+    "svelte": "^4.0.0"
+  },
+  "dependencies": {
+    "@binn-ui/core": "workspace:*",
+    "tsup": "^8.5.0"
+  },
+  "devDependencies": {
+    "@sveltejs/package": "^2.5.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.0",
+    "@tsconfig/svelte": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "svelte": "^5.38.8",
+    "svelte-preprocess": "^6.0.3",
+    "svelte2tsx": "^0.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
