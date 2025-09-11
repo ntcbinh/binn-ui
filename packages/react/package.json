@@ -14,8 +14,8 @@
     "package.json"
   ],
   "scripts": {
-    "build": "tsup src/Button.tsx --format cjs,esm --dts",
-    "dev": "tsup src/Button.tsx --watch",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --watch",
     "test": "vitest"
   },
   "peerDependencies": {
