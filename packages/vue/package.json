@@ -1,9 +1,18 @@
 {
-  "name": "@binn-ui/vue",
+  "name": "@bin-ntc/binn-ui-vue",
   "version": "0.0.0",
+  "description": "Vue 3 components for binn-ui",
+  "author": "BinN <ntc.binh96@gmail.com>",
+  "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --watch",
@@ -13,7 +22,7 @@
     "vue": "^3.0.0"
   },
   "dependencies": {
-    "@binn-ui/core": "workspace:*",
+    "@bin-ntc/binn-ui-core": "workspace:*",
     "tsup": "^8.5.0"
   },
   "publishConfig": {

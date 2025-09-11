@@ -1,9 +1,18 @@
 {
-  "name": "@binn-ui/react",
+  "name": "@bin-ntc/binn-ui-react",
   "version": "0.0.0",
+  "description": "React components for binn-ui",
+  "author": "BinN <ntc.binh96@gmail.com>",
+  "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsup src/Button.tsx --format cjs,esm --dts",
     "dev": "tsup src/Button.tsx --watch",
@@ -14,14 +23,8 @@
     "react-dom": "^18.0.0"
   },
   "dependencies": {
-    "@binn-ui/core": "workspace:*",
+    "@bin-ntc/binn-ui-core": "workspace:*",
     "tsup": "^8.5.0"
-  },
-  "author": "BinN <ntc.binh96@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "@storybook/addon-essentials": "^8.6.14",
-    "@storybook/react": "^8.0.0"
   },
   "publishConfig": {
     "access": "public"

@@ -1,15 +1,26 @@
 {
-  "name": "@binn-ui/core",
+  "name": "@bin-ntc/binn-ui-core",
   "version": "0.0.0",
+  "description": "Core utilities and primitives for binn-ui",
+  "author": "BinN <ntc.binh96@gmail.com>",
+  "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --watch",
     "test": "vitest"
   },
-  "author": "BinN <ntc.binh96@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "tsup": "^8.5.0"
   }

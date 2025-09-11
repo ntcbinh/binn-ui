@@ -1,5 +1,5 @@
 import React from "react"
-import { getButtonClass } from "@binn-ui/core"
+import { getButtonClass } from "@bin-ntc/binn-ui-core"
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   label?: string

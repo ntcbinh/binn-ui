@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getButtonClass } from "@binn-ui/core";
+  import { getButtonClass } from "@bin-ntc/binn-ui-core";
 
   export let label: string = "";
   export let className: string = "";

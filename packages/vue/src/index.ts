@@ -1,5 +1,5 @@
 import { defineComponent, h } from "vue"
-import { getButtonClass } from "@binn-ui/core"
+import { getButtonClass } from "@bin-ntc/binn-ui-core"
 
 export const Button = defineComponent({
   name: "UiButton",
