@@ -1,6 +1,6 @@
 {
   "name": "@bin-ntc/binn-ui-vue",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Vue 3 components for binn-ui",
   "author": "BinN <ntc.binh96@gmail.com>",
   "license": "MIT",
